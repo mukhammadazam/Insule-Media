@@ -1,0 +1,19 @@
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
+.gap17 {
+  gap: 17px;
+}
+.gap-11 {
+  gap: 101px;
+}
+.main {
+  background: #f0f0f0;
+}
+.pt11 {
+  padding-top: 180px;
+}
+.fs18{
+    font-size: 18px;
+}
