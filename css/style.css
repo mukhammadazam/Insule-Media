@@ -1,3 +1,8 @@
+.container{
+  max-width: 1240px;
+  padding: 0 20px;
+}
+
 img {
   object-fit: cover;
   vertical-align: middle;
@@ -11,9 +16,13 @@ img {
 .main {
   background: #f0f0f0;
 }
-.pt11 {
-  padding-top: 180px;
+.pt101{
+  padding-top: 109px;
 }
-.fs18{
-    font-size: 18px;
+.bg{
+  background: transparent;
+  border: none;
+}
+.zindex{
+  z-index: 111111111111;
 }
