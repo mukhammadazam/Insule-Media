@@ -219,5 +219,18 @@ img {
     height: 130px;
   }
 }
+.clo{
+  max-width: 576px;
+  width: 100%;
+}
+.tex{
+  padding-bottom: 96px;
+}
+@media screen and (max-width:992px) {
+  .clo{
+    max-width: 320px;
+    width: 100%;
+  }
+}
 
 
