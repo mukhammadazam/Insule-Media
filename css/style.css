@@ -225,6 +225,10 @@ img {
 }
 .tex{
   padding-bottom: 96px;
+} 
+.room-site{
+  background-image: url(../imges/daniel-larionov-iYYf3JZEUPI-unsplash.png);
+  background-repeat: no-repeat;
 }
 @media screen and (max-width:992px) {
   .clo{
@@ -232,5 +236,7 @@ img {
     width: 100%;
   }
 }
+
+
 
 
