@@ -171,7 +171,8 @@ img {
   width: 100%;
   background-color: #161a2b;
 }
-.wrapper{
+.wrapper {
+  padding: 56px 0;
   background-image: url(../imges/background__imagedes.png);
   background-repeat: no-repeat;
 }
@@ -180,14 +181,43 @@ img {
   max-width: 432px;
   padding: 15px 0;
   padding-right: 50px;
- 
 }
 
 .cart {
   padding: 10px;
-  background: #161A2B;
+  background: #161a2b;
   height: 144px;
   width: 208px;
-
 }
+@media screen and (max-width: 992px) {
+  .wrapper {
+    padding: 0;
+  }
+  .nas1 {
+    padding: 80px;
+    max-width: 670px;
+  }
+  .cart {
+    width: 208px;
+    height: 130px;
+  }
+  .nas {
+    flex-wrap: wrap;
+    background-image: url(../imges/Background__imagetablet.png);
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 576px){
+  .cards{padding: 0;}
+   .cart {
+   
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    height: 130px;
+  }
+}
+
 
