@@ -178,7 +178,7 @@ img {
 }
 
 .cards {
-  max-width: 432px;
+
   padding: 15px 0;
   padding-right: 50px;
 }
@@ -187,7 +187,7 @@ img {
   padding: 10px;
   background: #161a2b;
   height: 144px;
-  width: 208px;
+  width: 280px;
 }
 @media screen and (max-width: 992px) {
   .wrapper {
@@ -207,6 +207,16 @@ img {
     background-repeat: no-repeat;
     padding-bottom: 0;
     padding-top: 0;
+  }
+}
+@media screen and (max-width: 768px){
+  .cards{
+    padding-right: 0;
+  }
+  .cart {
+    width: 300px;
+    
+   
   }
 }
 @media screen and (max-width: 576px){
