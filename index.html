@@ -202,7 +202,29 @@
             <div class="room">
               <p class="h5 text-white pt-lg-5 pb-lg-5">В свежем номере</p>
               <div class="room2">
-                <div class="a"><a href="#">Анонсы по дате</a><img src="./imges/drabdawn.svg" alt="drabdawn"></div>
+     <div class="list13">
+      <div class="d-flex px-5 pt-1 pb-3 align-items-center justify-content-between">          <div class="a"><a class="text-dark pe-3" href="#">Анонсы по дате</a><img class="drabdawn" src="./imges/drabdawn.svg" alt="drabdawn"></div><input class="border-0 text-dark outline-none" type="date">
+    </div>
+    <ul class="list11 ps-5" style="list-style: none;">
+      <li  ><a class="text-white" href="#">5 дней в неделю</a> </li>
+      <li ><a class="text-white" href="#">рабочее время 8:00 23:00</a> </li>
+    </ul>
+      <p class=" ps-5 pe-5 pb-5 bg-light ">— ДПМ-2: точка в отборе проектов не поставлена.  <br>
+        Как всегда, есть недовольные. <br>
+        — Локализация производства газовых турбин. <br>
+        Как быстро надо спешить? <br>
+        — Купит ли «Газпром энергохолдинг» угольные <br>
+        ТЭЦ Иркутскэнерго вместе с углём? <br>
+        — Перегруппировка дальневосточных генерирующих <br>
+        активов. Обсуждение продолжается, рынок нервничает. <br>
+        — Энергетика Беларуси: мощности растут, кадры обновляются. <br> <br>
+        
+        — Экибастуз: крупное ЧП на небольшой ТЭЦ. <br> <br>
+        
+        — Учёные Казахстана работают над совершенствованием технологии сжигания экибастузского угля, зато в Германии угольным станциям осталось жить меньше двадцати лет.
+        <br>— Киргизия: ТЭЦ-2 в Бишкеке всё-таки может быть построена.
+        </p>
+     </div>
               </div>
             </div>
           </div>
@@ -210,6 +232,15 @@
       </section>
     </main>
 
-    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/bootstrap.bundle.min.js">
+    </script>
+    <script>
+      let drabdawn = document.querySelector(".drabdawn");
+let list11 = document.querySelector('.list11');
+let list12 = document.querySelector('.list12');
+drabdawn.addEventListener('click',function(){
+  list11.classList.toggle("list12");
+});
+    </script>
   </body>
 </html>
