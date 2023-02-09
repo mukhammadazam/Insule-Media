@@ -270,6 +270,12 @@ img {
 .list14{
   background-color: #424242;
 }
+.borderrs{
+  display: block;
+  max-width: 464px;
+  width: 100%;
+  padding-right: 400px;
+}
 
 
 
