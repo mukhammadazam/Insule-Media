@@ -178,7 +178,6 @@ img {
 }
 
 .cards {
-
   padding: 15px 0;
   padding-right: 50px;
 }
@@ -209,74 +208,83 @@ img {
     padding-top: 0;
   }
 }
-@media screen and (max-width: 768px){
-  .cards{
+@media screen and (max-width: 768px) {
+  .cards {
     padding-right: 0;
   }
   .cart {
     width: 300px;
-    
-   
   }
 }
-@media screen and (max-width: 576px){
-  .cards{padding: 0;}
-   .cart {
-   
+.list12 {
+  display: block;
+  transition: all 1s ease;
+}
+.list14 {
+  background-color: #424242;
+}
+.borderrs {
+  display: block;
+  max-width: 464px;
+  width: 100%;
+  margin-left: 68px;
+}
+.form {
+  max-width: 600px;
+  width: 100%;
+}
+.btnnn {
+  max-width: 336px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+  .cards {
+    padding: 0;
+  }
+  .cart {
     max-width: 350px;
     width: 100%;
     margin: 0 auto;
     height: 130px;
   }
+  .form {
+    max-width: 576px;
+    width: 100%;
+  }
+  .borderrs {
+    margin-left: 0;
+  }
 }
-.clo{
+.clo {
   max-width: 576px;
   width: 100%;
 }
-.tex{
+.tex {
   padding-bottom: 96px;
-} 
-.room-site{
+}
+.room-site {
   background-image: url(../imges/daniel-larionov-iYYf3JZEUPI-unsplash.png);
   background-repeat: no-repeat;
   padding-bottom: 150px;
 }
-.room2{
- 
+.room2 {
   background-color: #fff;
   max-width: 600px;
   width: 100%;
 }
-@media screen and (max-width:992px) {
-  .clo{
+@media screen and (max-width: 992px) {
+  .clo {
     max-width: 320px;
     width: 100%;
   }
 }
-.list11{
+.list11 {
   position: absolute;
- display: none;
+  display: none;
   transition: all 1s ease;
   background-color: #161a2b;
   width: 200px;
   padding: 20px 0;
   border-radius: 10px;
 }
-.list12{
-  
- display: block;
-  transition: all 1s ease;
-}
-.list14{
-  background-color: #424242;
-}
-.borderrs{
-  display: block;
-  max-width: 464px;
-  width: 100%;
- 
-}
-
-
-
-
