@@ -1,3 +1,8 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
 .container {
   max-width: 1240px;
   padding: 0 20px;
@@ -288,6 +293,15 @@ img {
   padding: 20px 0;
   border-radius: 10px;
 }
-.list12{
+.list12 {
   display: block;
+}
+.pptext {
+  display: none;
+}
+.pptext1 {
+  display: block;
+}
+.text12:active{
+  transform: rotate(180deg);
 }
