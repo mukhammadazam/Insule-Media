@@ -299,9 +299,33 @@ img {
 .pptext {
   display: none;
 }
-.pptext1 {
+.active {
   display: block;
 }
-.text12:active{
+.text12:active {
   transform: rotate(180deg);
+}
+
+.text12 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+
+details > summary {
+  list-style-type: '+ ';
+}
+details[open] > summary {
+  list-style-type: "- ";
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  background-color: #ccc;
 }
