@@ -330,6 +330,6 @@ summary {
   background-color: #ccc;
 }
 .col{
-  border: 1px solid red;
+  border: 1px solid transparent;
 
 }
