@@ -67,4 +67,45 @@ document.querySelectorAll('details').forEach((accordion) => {
 //     // pptext[i].classList.remove('pptext1')
 // }
 
-let form =document.getElementById("form1")
+// let form = document.querySelector(".form1"),
+//     formName = document.getElementById('formName'),
+//     spanT = document.querySelectorAll(".spant"),
+//     formNumber = document.getElementById("formNumber"),
+//     btn = document.getElementById("btn");
+// form.addEventListener('sumbit', function (e) {
+//     e.preventDefault();
+//     if (!formName.value) {
+//         spanT[0].innerHTML = 'xato';
+       
+//     }  console.log(spanT[0]);
+// })
+let form = document.querySelector('.form'),
+    forminput1 = document.querySelector(".forminput1"),
+    forminput2 = document.querySelector(".forminput2"),
+    formspan = document.querySelectorAll('.formspan'),
+    btn = document.querySelector('.btn');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    if (!forminput1.value) {
+        formspan[0].innerText = 'iltimos ismingizni kiriting ';
+        forminput1.classList.add('qizil')
+    } else {
+        formspan[0].innerText = '';
+        forminput1.classList.remove('qizil');
+        forminput1.classList.add('yashil');
+
+    }
+    if (!forminput2.value) {
+        formspan[1].innerText = 'email manzil kiriting iltimos';
+        forminput1.classList.add('qizil');
+        
+    } else {
+        formspan[1].innerText = '';
+        forminput2.classList.remove('qizil');
+        forminput2.classList.add('yashil')
+    }
+  
+
+})

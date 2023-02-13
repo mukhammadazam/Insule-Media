@@ -374,5 +374,18 @@ summary {
   max-width: 376px;
   width: 100%;
 }
-
+.bb{
+  top: 150px;
+  right: 0;
+}
+.bb1{
+  left: 120px;
+  top: 230px;
+}
+.qizil{
+  border: 2px solid red;
+}
+.yashil{
+  border: 2px solid rgb(7, 176, 21);
+}
 
