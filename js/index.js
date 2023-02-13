@@ -66,3 +66,5 @@ document.querySelectorAll('details').forEach((accordion) => {
 // if (pptext[i].className.includes('pptext1')) {
 //     // pptext[i].classList.remove('pptext1')
 // }
+
+let form =document.getElementById("form1"),
