@@ -3,6 +3,9 @@
   box-sizing: border-box;
   list-style: none;
 }
+body {
+  overflow-x: hidden;
+}
 .container {
   max-width: 1240px;
   padding: 0 20px;
@@ -129,6 +132,10 @@ img {
     padding: 10px 20px;
     font-size: 14px;
   }
+  .wid {
+    width: 395px;
+    
+  }
 }
 @media screen and (max-width: 500px) {
   .hero__site {
@@ -143,6 +150,10 @@ img {
   .text {
     font-size: 14px;
     text-align: center;
+  }
+  .wid {
+    width: 300px;
+    
   }
   .list {
     position: absolute;
@@ -165,6 +176,13 @@ img {
     padding: 10px 30px;
   }
 }
+@media screen and (max-width: 400px){
+  .wid {
+    width: 250px;
+    
+  }
+}
+
 .frow {
   background-image: url(../imges/background__imagedes.png);
   background-repeat: no-repeat;
@@ -315,9 +333,8 @@ img {
   display: none;
 }
 
-
 details > summary {
-  list-style-type: '+ ';
+  list-style-type: "+ ";
 }
 details[open] > summary {
   list-style-type: "- ";
@@ -329,7 +346,6 @@ details > summary::-webkit-details-marker {
 summary {
   background-color: #ccc;
 }
-.col{
+.col {
   border: 1px solid transparent;
-
 }

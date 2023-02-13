@@ -15,15 +15,15 @@ drabdawn.addEventListener('click', function () {
 
 // console.log(pptext);
 
-for (let i = 0; i < 4; i++) {
-    text12[i].addEventListener('click', (e) => {
-        if (!pptext[i].className.includes('active')) {
-            pptext[i].classList.add('active')
-        } else {
-            pptext[i].classList.add('hidden')
-        }
-    })
-}
+// for (let i = 0; i < 4; i++) {
+//     text12[i].addEventListener('click', (e) => {
+//         if (!pptext[i].className.includes('active')) {
+//             pptext[i].classList.add('active')
+//         } else {
+//             pptext[i].classList.add('hidden')
+//         }
+//     })
+// }
 
 document.querySelectorAll('details').forEach((accordion) => {
     accordion.addEventListener('click', (e) => {
