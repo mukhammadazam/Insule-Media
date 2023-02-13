@@ -86,6 +86,9 @@ img {
   .title {
     font-size: 24px;
   }
+  .dd{
+    margin-left: 100px;
+  }
   .text {
     font-size: 18px;
   }
@@ -363,5 +366,9 @@ summary {
 }
 .col {
   border: 1px solid transparent;
+}
+.ww{
+  max-width: 376px;
+  width: 100%;
 }
 

@@ -172,10 +172,10 @@
 
         </div>
         <div class="room-site">
-          <div class="container">
+          <div class="px-lg-5">
             <div class="room">
-              <p class="h5 text-white pt-lg-5 pb-lg-5">В свежем номере</p>
-              <div class=" d-lg-flex  d-sm-block ">
+              <p class="h5 text-white py-5 ps-3 pt-lg-5 pb-lg-5">В свежем номере</p>
+              <div class=" d-lg-flex   d-md-column justify-content-md-center ">
                 <div class="room2">
                   <div class="list13">
                     <div class="d-flex px-5 pt-1 pb-3 align-items-center justify-content-between">
@@ -186,13 +186,8 @@
                     <ul class="list11 ps-5" style="list-style: none;">
                       <li><a class="text-white" href="#">5 дней в неделю</a> </li>
                       <li><a class="text-white" href="#">рабочее время 8:00 23:00</a> </li>
-                    </ul>
-                      <details class="">
-                        <summary>Question 1</summary>
-                        <strong>Answer:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus molestias ex, rem ducimus quibusdam nihil aliquam corporis id sint aperiam dolores, accusantium culpa adipisci similique doloremque eius reiciendis. Veniam, perferendis.
-                      </details>
-                      
-                    <p class=" ps-5 pe-5 pb-1 list13 fs-sm-7 fs-7 ">— ДПМ-2: точка в отборе проектов не поставлена. <br>
+                    </ul> 
+                    <p class=" ps-5 pe-5  pb-1 list13 fs-sm-7 fs-7 ">— ДПМ-2: точка в отборе проектов не поставлена. <br>
                       Как всегда, есть недовольные. <br>
                       — Локализация производства газовых турбин. <br>
                       Как быстро надо спешить? <br>
@@ -216,7 +211,8 @@
                   </div>
                 </div>
                 <form action="https://echo.htmlacademy.ru/" method="post" class="bg-dark form pb-5 w-100">
-                  <p class="  h5 fw-lg-bold text-white text-center pt-5 pb-5">Получите свежий номер бесплатно</p>
+                  <div class="px-3 px-sm-0">
+                    <p class="  h5 fw-lg-bold text-white text-center pt-5 pb-5">Получите свежий номер бесплатно</p>
                   <input type="text" placeholder="Имя" required
                     class=" text-white pb-1 border-top-0 mb-5 border-start-0 border-end-0 border-bottom-1   bg-transparent borderrs">
                   <input type="email" placeholder="Электронная почта" required
@@ -224,6 +220,7 @@
                   <button
                     class="px-5 py-2 fs-lg-5 fs-7 fs-lg-5 bg-transparent border-white text-white d-block btnnn mt-5  ">Ознакомиться
                     бесплатно</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -250,7 +247,7 @@
                     1 Алгоритмы собирают информацию которая после попадает в базу данных
                   </details>
                   <div class="d-flex"> <a class="pe-3 text-white" href="#">Алгоритмы</a>
-                    <summary class="p-00 m-0 w-25"><img class="text12 ID1"src="./imges/drabdavn.svg" alt="drabdawn"></summary>
+                   <img class="text12 ID1"src="./imges/drabdavn.svg" alt="drabdawn">
                     </div>
                 </div>
 
@@ -284,7 +281,9 @@
                   <p class="h5 text-white"> 03<br>
 
                     Редактура и вёрстка</p>
-                  <p class="pptext text-white">3 Алгоритмы собирают информацию которая после попадает в базу данных</p>
+                    <details class=" text-white">
+                      1 Алгоритмы собирают информацию которая после попадает в базу данных
+                    </details>
                   <div class="asd"> <a class="pe-3 text-white" href="#">Алгоритмы</a><img data-id="1" class="text12 ID3"
                       src="./imges/drabdavn.svg" alt="drabdawn"></div>
                 </div>
@@ -302,7 +301,9 @@
 
 
                     Рассылка обзора</p>
-                  <p class="pptext text-white">4 Алгоритмы собирают информацию которая после попадает в базу данных</p>
+                    <details class=" text-white">
+                      1 Алгоритмы собирают информацию которая после попадает в базу данных
+                    </details>
                   <div class="asd"> <a class="pe-3 text-white" href="#">Алгоритмы</a><img class="text12 ID4"
                       src="./imges/drabdavn.svg" alt="drabdawn"></div>
                 </div>
@@ -431,7 +432,26 @@
  
 </div>
     </section>
+    <section class="bg-light pt-5 pb-5">
+      <div class="container">
+<div class="pb-5">
+  <p class="h5">Ознакомьтесь с текущим номером бесплатно</p>
+  <form action="https://echo.htmlacademy.ru/" class="pb-5 pt-5" method="post">
+    <input class="ww mb-5  border-top-0 me-sm-3 me-0  border-start-0 border-end-0 border-bottom-1 p-2 " required type="text" placeholder="Имя">
+    <input class="ww mb-5 border-top-0   border-start-0 border-end-0 border-bottom-1 p-2  " required type="email" placeholder="Электронная почта">
+    <button class=" border-danger py-sm-2 px-5 py-3 ms-5 ms-sm-4 px-sm-4 fs-5 border-2">Читать бесплатно</button>
+  </form>
+</div>
+      </div>
+    </section>
   </main>
+  <footer class="bg-dark">
+<div class="container">
+  <div class="">
+    
+  </div>
+</div>
+  </footer>
 
   <script src="./bootstrap/bootstrap.bundle.min.js">
   </script>
