@@ -67,4 +67,4 @@ document.querySelectorAll('details').forEach((accordion) => {
 //     // pptext[i].classList.remove('pptext1')
 // }
 
-let form =document.getElementById("form1"),
+let form =document.getElementById("form1")
