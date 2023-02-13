@@ -103,7 +103,9 @@ img {
     padding: 10px 30px;
   }
 }
+
 @media screen and (max-width: 576px) {
+
   .hero {
     padding-top: 0px;
     padding-bottom: 51px;
@@ -137,6 +139,7 @@ img {
   }
 }
 @media screen and (max-width: 500px) {
+  
   .hero__site {
     flex-direction: column;
     align-items: center;
@@ -183,10 +186,7 @@ img {
   width: 800px;
   
 }
-.dfg{
-  padding-left: 200px;
-  margin-bottom: 100px;
-}
+
 
 .frow {
   background-image: url(../imges/background__imagedes.png);
