@@ -105,7 +105,6 @@ img {
 }
 
 @media screen and (max-width: 576px) {
-
   .hero {
     padding-top: 0px;
     padding-bottom: 51px;
@@ -139,7 +138,6 @@ img {
   }
 }
 @media screen and (max-width: 500px) {
-  
   .hero__site {
     flex-direction: column;
     align-items: center;
@@ -184,9 +182,7 @@ img {
 }
 .bek {
   max-width: 800px;
-  
 }
-
 
 .frow {
   background-image: url(../imges/background__imagedes.png);
@@ -265,8 +261,16 @@ img {
   max-width: 336px;
   margin: 0 auto;
 }
+.corr {
+  position: absolute;
+  top: 350px;
+  left: 0;
+}
 
 @media screen and (max-width: 576px) {
+  .corr{
+    top: 400px;
+  }
   .cards {
     padding: 0;
   }
@@ -301,6 +305,12 @@ img {
   max-width: 600px;
   width: 100%;
 }
+@media screen and (max-width: 500px){
+  .corr{
+    top: 550px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .clo {
     max-width: 320px;
@@ -354,3 +364,4 @@ summary {
 .col {
   border: 1px solid transparent;
 }
+
