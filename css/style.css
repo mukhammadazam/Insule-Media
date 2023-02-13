@@ -182,6 +182,9 @@ img {
   .wid {
     width: 250px;
   }
+  .pad{
+    padding-bottom: 100px;
+  }
 }
 .bek {
   max-width: 800px;
