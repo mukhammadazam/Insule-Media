@@ -134,7 +134,6 @@ img {
   }
   .wid {
     width: 395px;
-    
   }
 }
 @media screen and (max-width: 500px) {
@@ -153,7 +152,6 @@ img {
   }
   .wid {
     width: 300px;
-    
   }
   .list {
     position: absolute;
@@ -176,11 +174,18 @@ img {
     padding: 10px 30px;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .wid {
     width: 250px;
-    
   }
+}
+.bek {
+  width: 800px;
+  
+}
+.dfg{
+  padding-left: 200px;
+  margin-bottom: 100px;
 }
 
 .frow {
