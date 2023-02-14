@@ -381,6 +381,7 @@ summary {
 .bb1{
   left: 120px;
   top: 230px;
+  color: red;
 }
 .qizil{
   border: 2px solid red;
@@ -392,7 +393,28 @@ summary {
   border: 2px solid red;
   
 }
-
+.bb2{
+  left: 0px;
+  top: 90px;
+  color: red;
+}
+.sp{
+  left: 400px;
+  color: red;
+  top: 90px;
+}
+@media screen and (max-width:576px){
+  .bb2{
+    left: 0px;
+    top: 171px;
+    color: red;
+  }
+  .sp{
+    left: 0;
+    color: red;
+    top: 80px;
+  }
+}
 .yashil1{
   border: 2px solid rgb(7, 176, 21);
 }
