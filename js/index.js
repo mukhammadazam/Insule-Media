@@ -76,7 +76,7 @@ document.querySelectorAll('details').forEach((accordion) => {
 //     e.preventDefault();
 //     if (!formName.value) {
 //         spanT[0].innerHTML = 'xato';
-       
+
 //     }  console.log(spanT[0]);
 // })
 let form = document.querySelector('.form'),
@@ -95,17 +95,48 @@ form.addEventListener('submit', function (e) {
         formspan[0].innerText = '';
         forminput1.classList.remove('qizil');
         forminput1.classList.add('yashil');
+        forminput1.value = '';
 
     }
     if (!forminput2.value) {
         formspan[1].innerText = 'email manzil kiriting iltimos';
-        forminput1.classList.add('qizil');
-        
+        forminput2.classList.add('qizil');
+
     } else {
         formspan[1].innerText = '';
         forminput2.classList.remove('qizil');
         forminput2.classList.add('yashil')
+        forminput2.value = '';
     }
-  
 
+});
+
+//ikkinchi valideshin
+let form1 = document.querySelector('.form11'),
+    input1 = document.querySelector(".input1"),
+    input2 = document.querySelector(".input2");
+let leni = document.querySelectorAll(".leni1");
+form1.addEventListener('submit', function (e) {
+    e.preventDefault(e);
+    if (!input1.value) {
+        leni[0].innerText = 'iltimos ismingizni kiriting ';
+        input1.classList.add('qizil1')
+    } else {
+        leni[0].innerText = '';
+        input1.classList.remove('qizil1');
+        input1.classList.add('yashil1');
+        input1.value = '';
+
+    }
+    if (!input2.value) {
+        leni[1].innerText = 'email manzil kiriting iltimos';
+        input2.classList.add('qizil1');
+
+    } else {
+        leni[1].innerText = '';
+        input2.classList.remove('qizil1');
+        input2.classList.add('yashil1')
+        input2.value = '';
+    }
 })
+
